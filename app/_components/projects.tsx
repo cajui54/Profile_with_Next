@@ -72,20 +72,21 @@ const ProjectsComponent = () => {
                 ))}
               </div>
             </div>
+            <div className="h-16 overflow-hidden">
+              <p className="m-2 mx-auto my-4 w-4/5">
+                <span className="font-bold text-emerald-500">
+                  {projects[index].title}
+                </span>
+                {projects[index].description}
+              </p>
+            </div>
 
-            <p className="m-2 mx-auto my-4 w-4/5">
-              <span className="font-bold text-emerald-500">
-                {projects[index].title}
-              </span>
-              {projects[index].description}
-            </p>
-            <div className={`mx-auto mb-4 flex w-4/5 justify-between`}>
+            <div className={`mx-auto my-6 flex w-4/5 justify-between`}>
               <span
                 onClick={handleBack}
                 className={`${index === 0 && "opacity-0"} cursor-pointer`}
               >
                 <FaArrowCircleLeft className="text-3xl text-emerald-500 transition-all hover:scale-125" />
-                back
               </span>
 
               <span
@@ -93,11 +94,10 @@ const ProjectsComponent = () => {
                 className={`${index === projects.length - 1 && "opacity-0"} cursor-pointer`}
               >
                 <FaArrowCircleRight className="text-3xl text-emerald-500 transition-all hover:scale-125" />
-                next
               </span>
             </div>
 
-            <div className="mx-auto -mt-12 flex w-52 items-center justify-around space-x-3 text-neutral-950">
+            <div className="mx-auto flex w-52 items-center justify-around space-x-3 text-neutral-950">
               <Link
                 target="_blank"
                 href={projects[index].deployLink}

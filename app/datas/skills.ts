@@ -63,7 +63,7 @@ export const skills: DataSkill[] = [
   },
   {
     icon: MdOutlineCss,
-    title: "Cascading Styles Sheets",
+    title: "CSS",
     subtitle: "Libraries CSS",
     libraries: cssLibraries,
   },
@@ -105,7 +105,7 @@ export const skills: DataSkill[] = [
   },
   {
     icon: FaComputer,
-    title: "Desenvolvimento Web",
+    title: "Developer Web",
     subtitle: "Tools Web",
     libraries: webLibraries,
   },

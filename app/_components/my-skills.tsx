@@ -24,14 +24,14 @@ const MySkills = () => {
                 </h2>
                 <h3 className="-mt-2 text-[12px]">{skill.subtitle}</h3>
                 {skill.libraries && (
-                  <div className="py- mt-2 flex h-9 min-w-[60%] items-center justify-center space-x-9 rounded-xl bg-neutral-900 px-1">
+                  <div className="mt-2 flex h-9 min-w-[60%] items-center justify-center space-x-9 rounded-xl bg-neutral-900 px-1 py-2">
                     {skill.libraries.map((library, index) => (
                       <div
                         key={index}
                         className="flex flex-col items-center justify-center"
                       >
                         {
-                          <library.icon className="text-[30px] text-emerald-400" />
+                          <library.icon className="text-[20px] text-emerald-400" />
                         }
                         <h3 className="text-center text-[9px]">
                           {library.titles}
