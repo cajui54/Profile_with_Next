@@ -55,7 +55,7 @@ const FreelancerWork = () => {
           <Link
             target="_blank"
             className="mt-5 flex min-w-28 items-center justify-center rounded-full border border-emerald-500 bg-neutral-900 px-2 py-2 text-center"
-            href="https://dgssound-altofalantesautomotivos.vercel.app/"
+            href="https://dgssound-alto-falantes.vercel.app/"
           >
             <FaGlobe className="mr-2 text-emerald-500" />
             Visite o Site

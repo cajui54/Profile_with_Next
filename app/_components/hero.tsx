@@ -19,7 +19,7 @@ const HeroComponent = () => {
             Seja bem vindo, ao portfólio.
           </p>
           <h2 className="-mt-[8px] text-4xl font-semibold text-emerald-500 lg:-mt-1 lg:text-[50px]">
-            Jackson Silva
+            J. Tiago Silva
           </h2>
           <p className="-mt-2 ml-20 font-extrabold">Desenvolvedor Web</p>
           <BarSocialComponent />
