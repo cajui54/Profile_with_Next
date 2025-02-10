@@ -16,7 +16,7 @@ const roboto = Roboto({
   variable: "--font-roboto",
 });
 export const metadata: Metadata = {
-  title: "Portfólio / Jackson Silva",
+  title: "Portfólio / Tiago Silva",
   description:
     "Seja bem vindo ao meu portfólio, nele contém minhas informações profissionais.",
 };
