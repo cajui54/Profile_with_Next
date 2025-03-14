@@ -1,6 +1,7 @@
 import imgEStockyly from "@/app/assets/images/e-stockly.png";
 import imgDeKebras from "@/app/assets/images/dekebras.png";
 import imgPetshopApp from "@/app/assets/images/dog-maltes-tosa.png";
+import imgBarbershopFSW from "@/app/assets/images/barbershop-fsw.jpg";
 import {
   RiFirebaseLine,
   RiNextjsLine,
@@ -20,6 +21,46 @@ import { MdComputer } from "react-icons/md";
 import { FaComputer } from "react-icons/fa6";
 
 export const projects = [
+  {
+    image: imgBarbershopFSW,
+    title: "Barbershop",
+    subtitle: "Agendamento de Corte de Cabelo",
+    skills: [
+      {
+        icon: RiNextjsLine,
+        title: "Next.JS",
+      },
+      {
+        icon: SiShadcnui,
+        title: "Shadcn/ui",
+      },
+      {
+        icon: RiTailwindCssFill,
+        title: "TaildwindCss",
+      },
+      {
+        icon: FaUserShield,
+        title: "Next Auth",
+      },
+      {
+        icon: SiZod,
+        title: "Zod",
+      },
+      {
+        icon: SiPrisma,
+        title: "Prisma",
+      },
+      {
+        icon: BiLogoPostgresql,
+        title: "Postgresql",
+      },
+    ],
+    description:
+      " é uma aplicação para gerenciar agendamentos de corte de cabelo.",
+    toScreen: [MdComputer, FaComputer, FaTabletAlt],
+    deployLink: "https://barbershop-fws.vercel.app/",
+    repositoryGithub: "https://github.com/cajui54/Barbershop_FWS",
+  },
   {
     image: imgPetshopApp,
     title: "Petshop App.",

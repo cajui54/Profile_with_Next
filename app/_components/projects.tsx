@@ -12,7 +12,7 @@ import {
 import { projects } from "../datas/projects";
 
 const ProjectsComponent = () => {
-  const [index, setIndex] = useState<number>(1);
+  const [index, setIndex] = useState<number>(0);
 
   const handleBack = () => {
     if (index > 0) {
