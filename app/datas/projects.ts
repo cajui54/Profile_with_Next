@@ -1,7 +1,7 @@
 import imgEStockyly from "@/app/assets/images/e-stockly.png";
 import imgDeKebras from "@/app/assets/images/dekebras.png";
 import imgPetshopApp from "@/app/assets/images/dog-maltes-tosa.png";
-import imgBarbershopFSW from "@/app/assets/images/barbershop-fsw.jpg";
+import imgBarbershopFSW from "@/app/assets/images/relaxamento.jpg";
 import {
   RiFirebaseLine,
   RiNextjsLine,

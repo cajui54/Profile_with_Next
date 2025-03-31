@@ -1,6 +1,7 @@
 import React from "react";
 import TitlesContainer from "./titles-container";
 import FreelancerWork from "./freelancer-work";
+import AcademicTraining from "./academic-training";
 
 const titles = {
   title: "About me",
@@ -21,6 +22,7 @@ const AboutMe = () => {
           ecossistema.
         </p>
       </article>
+      <AcademicTraining />
       <FreelancerWork />
     </div>
   );
