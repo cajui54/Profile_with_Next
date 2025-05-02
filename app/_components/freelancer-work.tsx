@@ -2,6 +2,7 @@ import React from "react";
 import TitlesContainer from "./titles-container";
 import imgDeCake from "@/app/assets/images/decake.png";
 import imgDGS from "@/app/assets/images/dgs.jpg";
+import imgBarber from "@/app/assets/images/Barbershop-destak.png";
 import imgPetshop from "@/app/assets/images/petshop_app.jpg";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,6 +18,38 @@ const FreelancerWork = () => {
           Next.JS, ajudando aos clientes a alcançar mais clientes. 
         </p>
       </article>
+      <TitlesContainer
+        title="BarberShop Destak"
+        subtitle="Agendamentos de serviços"
+      />
+
+      <article className="m-auto mb-28 w-4/5 p-1 md:w-[600px]">
+        <p className="text-[18px] leading-7 tracking-wide">
+          Criei o
+          <span className="font-semibold text-emerald-400">
+            {" "}
+            Barbershop Destak{" "}
+          </span>
+          para meu cabeleireiro, para ajuda-lo a gerenciar agendamentos de
+          serviços e facilitar o contato com os clientes.
+        </p>
+
+        <div className="mx-auto mt-8 flex w-4/6 flex-col items-center justify-center sm:w-[400px]">
+          <Image
+            src={imgBarber}
+            alt="barbershop destak"
+            className="w-[400px] rounded-xl"
+          />
+          <Link
+            target="_blank"
+            className="mt-5 flex min-w-28 items-center justify-center rounded-full border border-emerald-500 bg-neutral-900 px-2 py-2 text-center"
+            href="https://barbershop-distak.vercel.app/"
+          >
+            <FaGlobe className="mr-2 text-emerald-500" />
+            Visite o Site
+          </Link>
+        </div>
+      </article>
 
       <TitlesContainer
         title="Petshop App"
@@ -25,7 +58,7 @@ const FreelancerWork = () => {
       <article className="m-auto mb-28 w-4/5 p-1 md:w-[600px]">
         <p className="text-[18px] leading-7 tracking-wide">
           Criei o
-          <span className="font-semibold text-emerald-400">Petshop App</span>
+          <span className="font-semibold text-pink-400"> Petshop App </span>
           com o objetivo de gerenciar agendamentos de serviços de um petshop
         </p>
 
@@ -33,7 +66,7 @@ const FreelancerWork = () => {
           <Image
             src={imgPetshop}
             alt="petshop app."
-            className="h-[300px] rounded-xl"
+            className="w-[400px] rounded-xl"
           />
           <Link
             target="_blank"
