@@ -9,7 +9,6 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
-import { FaComputer } from "react-icons/fa6";
 import {
   SiReactquery,
   SiAxios,
@@ -19,94 +18,102 @@ import {
   SiTestinglibrary,
   SiPrisma,
 } from "react-icons/si";
-import { PiWebhooksLogo } from "react-icons/pi";
-import { MdOutlineCss } from "react-icons/md";
+
 import { DiSass } from "react-icons/di";
 import { TbBrandJavascript, TbBrandTypescript } from "react-icons/tb";
 import { BiLogoMongodb } from "react-icons/bi";
+import { SiShadcnui } from "react-icons/si";
 
-interface Libraries {
+interface ISkillProps {
   icon: IconType;
-  titles: string;
+  name: string;
 }
-interface DataSkill {
-  icon: IconType;
-  title: string;
-  subtitle: string;
-  libraries?: Libraries[];
-}
-const reactLibraries: Libraries[] = [
-  { icon: TbBrandRedux, titles: "Redux" },
-  { icon: SiReactquery, titles: "React Query" },
-  { icon: SiAxios, titles: "Axios" },
-  { icon: PiWebhooksLogo, titles: "Hooks" },
-];
-const cssLibraries: Libraries[] = [
-  { icon: SiStyledcomponents, titles: "Styled-Components" },
-  { icon: DiSass, titles: "Sass" },
-  { icon: FaCss3Alt, titles: "CSS3" },
-  { icon: SiTailwindcss, titles: "TailwindCss" },
-];
-const webLibraries: Libraries[] = [
-  { icon: FaHtml5, titles: "HTML5" },
-  { icon: FaCss3Alt, titles: "CSS3" },
-  { icon: TbBrandJavascript, titles: "JavaScript" },
-  { icon: TbBrandTypescript, titles: "TypeScript" },
-];
-export const skills: DataSkill[] = [
-  { icon: RiNextjsLine, title: "Next.JS 14", subtitle: "Framework" },
+export const dataSkills: ISkillProps[] = [
+  {
+    icon: RiNextjsLine,
+    name: "Next.JS",
+  },
   {
     icon: FaReact,
-    title: "React.JS",
-    subtitle: "Library",
-    libraries: reactLibraries,
+    name: "React.JS",
   },
   {
-    icon: MdOutlineCss,
-    title: "CSS",
-    subtitle: "Libraries CSS",
-    libraries: cssLibraries,
-  },
-  { icon: SiJest, title: "Jest", subtitle: "Framework of Test" },
-  {
-    icon: SiTestinglibrary,
-    title: "React Testing in Library",
-    subtitle: "Framework of Test",
+    icon: SiShadcnui,
+    name: "Shadcn/UI",
   },
   {
-    icon: FaNode,
-    title: "Node.JS",
-    subtitle: "Runtime of JS",
-  },
-  {
-    icon: BiLogoMongodb,
-    title: "MongleDB",
-    subtitle: "NoSQL database",
+    icon: SiTailwindcss,
+    name: "Tailwind CSS",
   },
   {
     icon: SiPrisma,
-    title: "Prisma",
-    subtitle: "ORM",
+    name: "Prisma",
   },
   {
+    icon: TbBrandRedux,
+    name: "Redux Toolkit",
+  },
+  {
+    icon: SiAxios,
+    name: "Axios",
+  },
+  {
+    icon: SiReactquery,
+    name: "React Query",
+  },
+  {
+    icon: SiStyledcomponents,
+    name: "Styled Components",
+  },
+
+  {
+    icon: DiSass,
+    name: "Sass",
+  },
+
+  {
+    icon: TbBrandJavascript,
+    name: "JavaScript",
+  },
+  {
+    icon: TbBrandTypescript,
+    name: "TypeScript",
+  },
+  {
+    icon: FaCss3Alt,
+    name: "CSS3",
+  },
+  {
+    icon: SiJest,
+    name: "Jest",
+  },
+  {
+    icon: SiTestinglibrary,
+    name: "Testing Library",
+  },
+  {
+    icon: FaNode,
+    name: "Node.JS",
+  },
+  {
+    icon: BiLogoMongodb,
+    name: "MongoDB",
+  },
+
+  {
     icon: RiFirebaseLine,
-    title: "Firebase",
-    subtitle: "Database of Google",
+    name: "Firebase",
   },
   {
     icon: FaGitAlt,
-    title: "Git",
-    subtitle: "manage of version",
+    name: "Git",
   },
   {
     icon: FaGithub,
-    title: "Github",
-    subtitle: "Repository",
+    name: "Github",
   },
   {
-    icon: FaComputer,
-    title: "Developer Web",
-    subtitle: "Tools Web",
-    libraries: webLibraries,
+    icon: FaHtml5,
+    name: "HTML5",
   },
 ];
