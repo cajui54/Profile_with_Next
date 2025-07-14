@@ -55,6 +55,21 @@ const NavbarComponent = () => {
           onClick={() => setOpenMenu(false)}
           className="relative cursor-pointer py-3 transition-all hover:text-emerald-400 sm:py-1"
           activeClass="active"
+          to="freelancer-work"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          onSetActive={handleSetActive}
+        >
+          Works Freelancer
+          <span className="absolute inline-block"></span>
+        </Link>
+
+        <Link
+          onClick={() => setOpenMenu(false)}
+          className="relative cursor-pointer py-3 transition-all hover:text-emerald-400 sm:py-1"
+          activeClass="active"
           to="skill"
           spy={true}
           smooth={true}

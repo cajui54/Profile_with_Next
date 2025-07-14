@@ -23,7 +23,6 @@ const AboutMe = () => {
         </p>
       </article>
       <AcademicTraining />
-      <FreelancerWork />
     </div>
   );
 };

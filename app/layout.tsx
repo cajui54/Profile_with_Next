@@ -29,7 +29,6 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={`${roboto.variable} ${oxygen.variable} antialiased`}>
-        <HeaderComponent />
         {children}
       </body>
     </html>

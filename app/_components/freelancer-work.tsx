@@ -14,8 +14,8 @@ const FreelancerWork = () => {
       <TitlesContainer title="Freelancer" subtitle="Trabalhos Realizados" />
       <article className="m-auto mb-20 w-4/5 p-1 md:w-[600px]">
         <p className="text-[18px] leading-7 tracking-wide">
-          Como freelancer, desenvolvi essas single pages utilizando React.JS e
-          Next.JS, ajudando aos clientes a alcançar mais clientes. 
+          Como freelancer, desenvolvi algumas aplicações web para clientes,
+          focando em soluções que facilitam o dia a dia e melhoram
         </p>
       </article>
       <TitlesContainer
